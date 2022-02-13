@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  width: 100vh;
+}
+
+.img {
+  border-radius: 94px;
+  position: absolute;
+  width: 345px;
+  height: 345px;
+  left: 128px;
+  top: 381px;
+
+  box-shadow: #93a9ff 0px 15px 29px 0px;
+}
+
+.name {
+  position: absolute;
+  width: 885px;
+  height: 45px;
+  left: -70px;
+  top: 138px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.title {
+  position: absolute;
+  width: 268px;
+  height: 32px;
+  left: 110px;
+  top: 249px;
+  padding-top: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #93a9ff;
+}
+
+.descriptionContainer {
+  max-width: 100%;
+}
+
+.description {
+  position: absolute;
+  width: 600px;
+  height: 434px;
+  left: 95vh;
+  top: 355px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  word-wrap: break-word;
+}
+
+.projectsButton {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #93a9ff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  position: relative;
+  top: 60vh;
+  left: 95vh;
+  height: 56px;
+}
+
+.projectsButton:hover {
+  color: #000000;
+  background-color: #93a9ff;
+}
+
+.wave {
+  position: absolute;
+  bottom: -15vh;
+  z-index: 1;
+}
