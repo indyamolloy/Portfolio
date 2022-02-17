@@ -12,14 +12,14 @@
 .image {
   width: 600px;
   height: 40vh;
-  background-color: black;
+  background-color: rgb(17, 17, 17);
 
   position: relative;
   object-fit: cover;
 }
 
 .image:hover {
-  box-shadow: #93a9ff 0px 7px 29px 10px;
+  box-shadow: #8b8274 0px 7px 29px 10px;
   transition: all 0.4s;
 }
 
