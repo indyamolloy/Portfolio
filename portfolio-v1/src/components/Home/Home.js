@@ -1,5 +1,6 @@
 import React from "react";
 import css from "./home.module.css";
+import me from "../../images/me.png";
 
 function Home() {
   return (
@@ -9,25 +10,19 @@ function Home() {
         <p className={css.title}>Software Engineer</p>
       </div>
 
-      <div>
-        <img
-          className={css.img}
-          src="https://media-exp1.licdn.com/dms/image/C4E03AQF8oMJwHMqzZw/profile-displayphoto-shrink_800_800/0/1644079407540?e=1649894400&v=beta&t=ToiVW8FYfaTBX79oRutEn8g0ck8n6YzkZXOoIyFRW5k"
-          alt="me"
-        />
-      </div>
-      <div className={css.descriptionContainer}>
-        <p className={css.description}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum
-          dolor sit amet consectetur. Quis commodo odio aenean sed adipiscing
-          diam donec adipiscing tristique.{" "}
-        </p>
+      <img className={css.img} src={me} alt="me" />
 
-        <a href="#projects" className={css.projectsButton}>
-          View Projects
-        </a>
-      </div>
+      <p className={css.description}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet
+        consectetur. Quis commodo odio aenean sed adipiscing diam donec
+        adipiscing tristique.{" "}
+      </p>
+
+      <button href="#projects" className={css.projectsButton}>
+        View Projects
+      </button>
+
       <svg
         className={css.wave}
         xmlns="http://www.w3.org/2000/svg"

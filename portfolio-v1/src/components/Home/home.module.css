@@ -1,73 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
-body {
-  background-color: black;
+.homeContainer {
+  /* background-color: black;
   font-family: "Open Sans", sans-serif;
   color: white;
-  width: 100vh;
+  width: 100vh; */
+  position: relative;
+
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img {
-  border-radius: 94px;
-  position: absolute;
-  width: 345px;
-  height: 345px;
-  left: 128px;
-  top: 381px;
-
+  border-radius: 20%;
+  position: relative;
+  height: 40vh;
+  left: -75vh;
+  top: 8vh;
   box-shadow: #93a9ff 0px 15px 29px 0px;
 }
 
 .name {
-  position: absolute;
-  width: 885px;
-  height: 45px;
-  left: -70px;
-  top: 138px;
-
+  position: relative;
   font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 72px;
-  line-height: 98px;
-  text-align: center;
-
+  font-size: 4.5em;
   color: #ffffff;
+  left: 15vh;
+  top: -20vh;
+  width: 80vh;
+  display: block;
 }
 
 .title {
-  position: absolute;
-  width: 268px;
-  height: 32px;
-  left: 110px;
-  top: 249px;
-  padding-top: 5px;
+  position: relative;
+  display: block;
   font-family: "Open Sans", sans-serif;
-  font-style: normal;
-
-  font-size: 30px;
-  line-height: 41px;
-  text-align: center;
-
+  font-size: 2em;
   color: #93a9ff;
-}
-
-.descriptionContainer {
-  max-width: 100%;
+  top: -28vh;
+  left: 15vh;
 }
 
 .description {
-  position: absolute;
-  width: 600px;
-  height: 434px;
-  left: 95vh;
-  top: 355px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 33px;
-  word-wrap: break-word;
+  position: relative;
+  color: white;
+  right: 9vh;
+  font-family: "Open Sans", sans-serif;
+  min-width: 35vw;
+  font-size: 1.5em;
 }
 
 .projectsButton {
@@ -80,13 +64,13 @@ body {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   transition: all 0.2s;
+
   position: relative;
-  top: 60vh;
-  left: 95vh;
-  height: 56px;
+  top: 20vh;
+  right: 55vh;
 }
 
 .projectsButton:hover {
@@ -95,7 +79,7 @@ body {
 }
 
 .wave {
+  height: auto;
   position: absolute;
-  bottom: -15vh;
-  z-index: 1;
+  top: 72vh;
 }
