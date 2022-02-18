@@ -13,15 +13,16 @@
   width: 600px;
   height: 40vh;
   background-color: rgb(17, 17, 17);
-
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   position: relative;
   object-fit: cover;
 }
-
+/* 
 .image:hover {
   box-shadow: #8b8274 0px 7px 29px 10px;
   transition: all 0.4s;
-}
+} */
 
 .description {
   position: absolute;

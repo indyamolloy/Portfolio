@@ -1,7 +1,9 @@
 import React from "react";
 import css from "./home.module.css";
 import me from "../../images/me.png";
-import orange from "../../images/orange.png";
+import face from "../../images/face.png";
+
+import dots from "../../images/dots.png";
 
 function Home() {
   return (
@@ -13,6 +15,7 @@ function Home() {
       <div className={css.circle}></div>
 
       <img className={css.img} src={me} alt="me" />
+      <img className={css.style} src={dots} />
 
       <p className={css.description}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
