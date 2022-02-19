@@ -1,29 +1,51 @@
 import React from "react";
 import css from "./skills.module.css";
 
-function Skills(props) {
+function Skills() {
   return (
     <div className={css.container}>
-      <div className={css.heading}>Skills</div>
-      <div className={css.description}>
-        <ul>
-          <li>Agile Methodology </li>
-        </ul>
+      <h2 className={css.heading}> About</h2>
+      <div className={css.whiteOverlay}>
+        <p className={css.title}>
+          Skills
+          <ul className={css.list}>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScipt</li>
+            <li>React</li>
+            <li> Jest</li>
+            <li> UI Libraries</li>
+            <li> TypeScript</li>
+            <li> Node.js</li>
+            <li>Express</li>
+            <li>SQL</li>
+          </ul>
+        </p>
+        <div className={css.verticalLine}></div>
+        <p className={css.title}>
+          Tools
+          <ul className={css.list}>
+            <li>Github</li>
+            <li>Trello</li>
+            <li>Jira</li>
+            <li>Figma</li>
+            <li>Postman</li>
+            <li> Storybook</li>
+          </ul>
+        </p>
+        <div className={css.verticalLine}></div>
+        <p className={css.title}>
+          Methodologies
+          <ul className={css.list}>
+            <li>Scrum</li>
+            <li>Agile</li>
+            <li>Kanban</li>
+            <li>Pair Programming</li>
+            <li>Test Driven</li>
+          </ul>
+        </p>
       </div>
-
-      <div className={css.heading}>Toools</div>
-
-      <div className={css.description}>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Git & GitHub</li>
-          <li>Node & Express</li>
-          <li>SQL</li>
-        </ul>
-      </div>
+      <div className={css.bottomBox}></div>
     </div>
   );
 }

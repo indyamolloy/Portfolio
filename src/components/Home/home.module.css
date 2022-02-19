@@ -118,5 +118,6 @@
 
 .wave {
   position: relative;
-  bottom: -48vh;
+  bottom: -50vh;
+  width: 100%;
 }

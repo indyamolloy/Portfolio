@@ -20,9 +20,14 @@
   font-size: 1.7em;
   margin-top: 15vh;
   margin-left: 15vh;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Yeseva One", cursive;
   color: rgb(85, 79, 79);
 
   position: relative;
   z-index: 1;
+}
+
+.wave {
+  position: relative;
+  bottom: -1vh;
 }
