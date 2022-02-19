@@ -16,7 +16,7 @@
   /* border-bottom: white 0.8px solid; */
 }
 
-a {
+.link {
   color: rgb(100, 92, 92);
   text-decoration: none;
   font-size: 1em;
@@ -26,7 +26,7 @@ a {
   padding: 2vh;
 }
 
-a:hover {
+.link:hover {
   color: #c89a8e;
   transition: all 0.2s;
 }

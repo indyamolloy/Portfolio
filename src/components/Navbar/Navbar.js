@@ -14,7 +14,7 @@ function Navbar() {
             activeClass="active"
             spy={true}
             smooth={true}
-            className={css.navbarLinks}
+            className={(css.navbarLinks, css.link)}
           >
             HOME
           </Link>
@@ -23,7 +23,7 @@ function Navbar() {
             activeClass="active"
             spy={true}
             smooth={true}
-            className={css.navbarLinks}
+            className={(css.navbarLinks, css.link)}
             offset={-220}
           >
             PROJECTS
@@ -34,12 +34,20 @@ function Navbar() {
             activeClass="active"
             spy={true}
             smooth={true}
-            className={css.navbarLinks}
+            className={(css.navbarLinks, css.link)}
             offset={-100}
           >
             ABOUT
           </Link>
-          <a className={css.navbarLinks}>CONTACT</a>
+          <Link
+            to="contact"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            className={(css.navbarLinks, css.link)}
+          >
+            CONTACT
+          </Link>
         </nav>
       </div>
     </div>
