@@ -10,7 +10,9 @@ function Skills(props) {
           <li>Agile Methodology </li>
         </ul>
       </div>
-      <div className={css.heading}>Tools</div>
+
+      <div className={css.heading}>Toools</div>
+
       <div className={css.description}>
         <ul>
           <li>HTML</li>
