@@ -1,0 +1,17 @@
+.socialIcon {
+  font-size: 3ch;
+  color: white;
+  margin-top: 1vh;
+}
+
+.container {
+  background-color: #515c4e;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+  margin: 0;
+  position: fixed;
+  z-index: 3;
+}

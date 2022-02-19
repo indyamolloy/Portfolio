@@ -2,39 +2,27 @@ import React from "react";
 import css from "./home.module.css";
 import me from "../../images/me.png";
 
-import face from "../../images/face.png";
-
-import dots from "../../images/dots.png";
-
-
 function Home() {
   return (
     <div className={css.homeContainer}>
       <div>
-
-        <h1 className={css.name}>Indya c Molloy</h1>
-        <p className={css.title}>Software Engineer</p>
+        <p className={css.hi}>Hi,</p>
+        <h1 className={css.name}>I'm Indya.</h1>
+        <p className={css.description}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum
+          dolor sit amet consectetur. Quis commodo odio aenean sed adipiscing
+          diam donec adipiscing tristique.
+        </p>
       </div>
-      <div className={css.circle}></div>
 
       <img className={css.img} src={me} alt="me" />
-      <img className={css.style} src={dots} />
-
-
-      <p className={css.description}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet
-        consectetur. Quis commodo odio aenean sed adipiscing diam donec
-
-        adipiscing tristique.
-
-      </p>
 
       <button href="#projects" className={css.projectsButton}>
         View Projects
       </button>
 
-      <button href="#projects" className={css.projectsButton}>
+      <button href="#projects" className={css.downloadButton}>
         Download CV
       </button>
       {/* <svg
@@ -50,7 +38,6 @@ function Home() {
           d="M0,96L48,117.3C96,139,192,181,288,170.7C384,160,480,96,576,90.7C672,85,768,139,864,160C960,181,1056,171,1152,154.7C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg> */}
-
     </div>
   );
 }

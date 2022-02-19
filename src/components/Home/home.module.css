@@ -1,7 +1,4 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&family=Rozha+One&family=Yeseva+One&display=swap");
 
 .homeContainer {
   /* background-color: black;
@@ -9,7 +6,6 @@
   color: white;
   width: 100vh; */
   position: relative;
-
 
   background-color: #f4f3ef;
 
@@ -21,72 +17,82 @@
 
   padding-bottom: 0;
   margin-bottom: 0;
-
 }
 
 .img {
-  border-radius: 20%;
-  position: relative;
-
-  height: 60vh;
-  bottom: -20vh;
-  left: 20vh;
-  z-index: 1;
-
-  /* box-shadow: #93a9ff 0px 15px 29px 0px; */
+  position: absolute;
+  height: 50vh;
+  right: 40vh;
+  top: 40vh;
 }
 
 .name {
   position: absolute;
-  font-family: "Playfair Display", serif;
-  font-size: 4em;
+  font-family: "Yeseva One", cursive;
+  font-size: 3em;
   color: black;
-  left: 15vh;
-  top: 10vh;
+  left: 30vh;
+  top: 32vh;
   width: 80vh;
   display: block;
   z-index: 2;
 }
 
-.title {
+.hi {
+  left: 30vh;
+  top: 28vh;
+  font-size: 1.5em;
+  font-family: "Red Hat Display", sans-serif;
   position: absolute;
-  display: block;
-  font-family: sans-serif;
-  font-size: 2em;
-  font-weight: 200;
-  font-style: italic;
-  color: #927d7d;
-  top: 23vh;
-  left: 15vh;
-  z-index: 2;
-
 }
 
 .description {
-  position: relative;
-
+  position: absolute;
+  top: 40vh;
+  left: 30vh;
   color: rgb(0, 0, 0);
-  right: -15vh;
-  font-family: "Raleway", sans-serif;
+  padding-top: 4vh;
   min-width: 30vw;
   max-width: 10vw;
   font-size: 1.5em;
-  background-color: #849994;
-
-  margin-right: 10em;
-  padding: 2em;
+  font-family: "Red Hat Display", sans-serif;
   height: 25vh;
   border-radius: 10px;
-  overflow: scroll;
-
 }
 
 .projectsButton {
   display: inline-block;
-
-  padding: 20px;
+  padding: 15px;
   width: auto;
   border: none;
+  margin: 0 0.3em 0.3em 0;
+
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  background-color: #c89a8e;
+  color: white;
+  text-align: center;
+  transition: all 0.2s;
+  border-radius: 10px;
+  position: absolute;
+  left: 30vh;
+  bottom: -5vh;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.projectsButton:hover {
+  background-color: #b68c82;
+  cursor: pointer;
+}
+
+.downloadButton {
+  display: inline-block;
+  padding: 15px;
+  width: auto;
+  border: solid 1px #c89a8e;
   margin: 0 0.3em 0.3em 0;
   border-radius: 3px;
   box-sizing: border-box;
@@ -95,19 +101,19 @@
   font-weight: 500;
   font-size: 1em;
   background-color: #ffffff;
+  color: rgb(100, 92, 92);
   text-align: center;
   transition: all 0.2s;
   border-radius: 10px;
-  position: relative;
-  top: 30vh;
-  left: -60vh;
-
+  position: absolute;
+  left: 55vh;
+  bottom: -5vh;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.projectsButton:hover {
-  color: #000000;
-
-  background-color: #c89a8e;
+.downloadButton:hover {
+  cursor: pointer;
+  background-color: #ffffff;
 }
 
 .circle {
@@ -124,5 +130,4 @@
   position: relative;
   top: 25vh;
   left: -35vh;
-
 }
