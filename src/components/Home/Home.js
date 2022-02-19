@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className={css.homeContainer}>
       <div>
-        <h1 className={css.name}>Indya Molloy</h1>
+        <h1 className={css.name}>Indya c Molloy</h1>
         <p className={css.title}>Software Engineer</p>
       </div>
       <div className={css.circle}></div>
