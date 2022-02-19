@@ -23,16 +23,16 @@
   position: absolute;
   height: 50vh;
   right: 40vh;
-  top: 40vh;
+  top: 30vh;
 }
 
 .name {
   position: absolute;
   font-family: "Yeseva One", cursive;
-  font-size: 3em;
+  font-size: 1.6em;
   color: black;
   left: 30vh;
-  top: 32vh;
+  top: 33vh;
   width: 80vh;
   display: block;
   z-index: 2;
@@ -41,20 +41,20 @@
 .hi {
   left: 30vh;
   top: 28vh;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: "Red Hat Display", sans-serif;
   position: absolute;
 }
 
 .description {
   position: absolute;
-  top: 40vh;
+  top: 34vh;
   left: 30vh;
   color: rgb(0, 0, 0);
   padding-top: 4vh;
   min-width: 30vw;
   max-width: 10vw;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: "Red Hat Display", sans-serif;
   height: 25vh;
   border-radius: 10px;
@@ -79,7 +79,7 @@
   border-radius: 10px;
   position: absolute;
   left: 30vh;
-  bottom: -5vh;
+  bottom: 10vh;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -107,27 +107,16 @@
   border-radius: 10px;
   position: absolute;
   left: 55vh;
-  bottom: -5vh;
+  bottom: 10vh;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .downloadButton:hover {
   cursor: pointer;
-  background-color: #ffffff;
+  background-color: #e4e2e2;
 }
 
-.circle {
-  height: 50vh;
-  width: 50vh;
-  background-color: #ca9a8e;
-  border-radius: 100%;
-  position: absolute;
-  top: 50vh;
-  left: -20vh;
-}
-
-.style {
+.wave {
   position: relative;
-  top: 25vh;
-  left: -35vh;
+  bottom: -48vh;
 }

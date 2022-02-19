@@ -12,8 +12,6 @@ function Projects() {
         <ProjectCard image="https://www.affde.com/uploads/article/96557/m9RS9LOH3W2Fxe6D.jpeg" />
         <ProjectCard image="https://www.affde.com/uploads/article/96557/rg4Dj67VtAhVlDQu.jpeg" />
         <ProjectCard image="https://www.affde.com/uploads/article/96557/VCTdLmMUqGkMsgbp.jpeg" />
-        <ProjectCard image="https://www.affde.com/uploads/article/96557/SeG9qPKe7TQID775.jpeg" />
-        <ProjectCard image="https://www.affde.com/uploads/article/96557/rwdzXr37aPi03KZs.jpeg" />
       </div>
     </div>
   );

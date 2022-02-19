@@ -4,7 +4,6 @@ import css from "./projectCard.module.css";
 function ProjectCard(props) {
   return (
     <div className={css.container}>
-
       {/* <div className={css.title}>Project Name</div> */}
 
       {/* <div className={css.image} style={props.style}> */}
@@ -15,12 +14,8 @@ function ProjectCard(props) {
         alt="project"
       />
       <div className={css.description}>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum
-          dolor sit amet consectetur. Quis commodo odio aenean sed adipiscing
-          diam donec adipiscing tristique.
-        </p>
+        <h4 className={css.title}>Title Project</h4>
+        <p>Project blah blah blah</p>
       </div>
     </div>
   );
