@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,400&display=swap");
 
 .container {
@@ -9,6 +10,7 @@
 .flexContainer {
   position: relative;
   background-color: #f4f3ef;
+
   color: black;
   display: flex;
   justify-content: space-around;
@@ -16,10 +18,12 @@
 }
 
 .heading {
+
   font-size: 2em;
   margin: 10vh;
   font-family: "Playfair Display", serif;
   color: rgb(85, 79, 79);
+
   position: relative;
   z-index: 1;
 }
