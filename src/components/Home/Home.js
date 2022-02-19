@@ -1,10 +1,11 @@
 import React from "react";
 import css from "./home.module.css";
 import me from "../../images/me.png";
+import { Link } from "react-scroll";
 
 function Home() {
   return (
-    <div className={css.homeContainer}>
+    <div id="home" className={css.homeContainer}>
       <div>
         <p className={css.hi}>Hi,</p>
         <h1 className={css.name}>I'm Indya.</h1>
@@ -18,13 +19,19 @@ function Home() {
 
       <img className={css.img} src={me} alt="me" />
 
-      <button href="#projects" className={css.projectsButton}>
+      <Link
+        to="projects"
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        className={css.projectsButton}
+      >
         View Projects
-      </button>
-
-      <button href="#projects" className={css.downloadButton}>
+      </Link>
+      <button href="hoem" className={css.downloadButton}>
         Download CV
       </button>
+
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"

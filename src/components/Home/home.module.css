@@ -48,7 +48,7 @@
 
 .description {
   position: absolute;
-  top: 34vh;
+  top: 33vh;
   left: 30vh;
   color: rgb(0, 0, 0);
   padding-top: 4vh;
@@ -79,12 +79,14 @@
   border-radius: 10px;
   position: absolute;
   left: 30vh;
-  bottom: 10vh;
+  bottom: 5vh;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-bottom: 8vh;
 }
 
 .projectsButton:hover {
-  background-color: #b68c82;
+  background-color: rgb(173, 128, 119);
+  color: white;
   cursor: pointer;
 }
 
@@ -107,17 +109,18 @@
   border-radius: 10px;
   position: absolute;
   left: 55vh;
-  bottom: 10vh;
+  bottom: 5vh;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-bottom: 8vh;
 }
 
 .downloadButton:hover {
   cursor: pointer;
-  background-color: #e4e2e2;
+  background-color: #ededed;
 }
 
 .wave {
-  position: relative;
-  bottom: -50vh;
+  position: absolute;
+  bottom: -22vh;
   width: 100%;
 }

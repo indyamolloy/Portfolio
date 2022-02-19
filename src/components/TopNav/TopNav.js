@@ -6,12 +6,17 @@ function TopNav() {
   return (
     <div className={css.container}>
       {" "}
-      <a className={css.socialIcon} href="#github">
+      <a
+        className={css.socialIcon}
+        href="https://github.com/indyamolloy"
+        target="_blank"
+      >
         <FaGithubSquare />
       </a>
       <a
         className={css.socialIcon}
         href="https://www.linkedin.com/in/indya-carroll-molloy-51702a231/"
+        target="_blank"
       >
         <FaLinkedin />
       </a>

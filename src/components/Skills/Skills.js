@@ -3,7 +3,7 @@ import css from "./skills.module.css";
 
 function Skills() {
   return (
-    <div className={css.container}>
+    <div id="about" className={css.container}>
       <h2 className={css.heading}> About</h2>
       <div className={css.whiteOverlay}>
         <p className={css.title}>

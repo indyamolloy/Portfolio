@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import css from "./navbar.module.css";
 import TopNav from "../TopNav/TopNav";
 
@@ -8,21 +9,37 @@ function Navbar() {
       <TopNav />
       <div className={css.navbarContainer}>
         <nav>
-          <a className={css.navbarLinks} href="#home">
+          <Link
+            to="home"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            className={css.navbarLinks}
+          >
             HOME
-          </a>
-          <a className={css.navbarLinks} href="#home">
+          </Link>
+          <Link
+            to="projects"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            className={css.navbarLinks}
+            offset={-220}
+          >
             PROJECTS
-          </a>
-          <a className={css.name} href="#home">
-            Indya Molloy
-          </a>
-          <a className={css.navbarLinks} href="#home">
+          </Link>
+          <span className={css.name}>Indya Molloy</span>
+          <Link
+            to="about"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            className={css.navbarLinks}
+            offset={-100}
+          >
             ABOUT
-          </a>
-          <a className={css.navbarLinks} href="#home">
-            CONTACT
-          </a>
+          </Link>
+          <a className={css.navbarLinks}>CONTACT</a>
         </nav>
       </div>
     </div>
