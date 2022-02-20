@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 function Home() {
   return (
     <div id="home" className={css.homeContainer}>
-      <div>
+      <div className={css.intro}>
         <p className={css.hi}>Hi,</p>
         <h1 className={css.name}>I'm Indya.</h1>
         <p className={css.description}>

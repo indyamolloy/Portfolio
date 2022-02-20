@@ -125,3 +125,16 @@
   bottom: -22vh;
   width: 100%;
 }
+
+@media screen and (max-width: 1070px) {
+  .img {
+    height: 30vh;
+  }
+
+  .projectsButton,
+  .downloadButton {
+    width: 13vw;
+    font-size: 0.8em;
+    padding: 1.5vh;
+  }
+}
