@@ -2,6 +2,7 @@ import React from "react";
 import css from "./home.module.css";
 import me from "../../images/me.png";
 import { Link } from "react-scroll";
+import CV from "../../images/IndyaMolloyCV.pdf";
 
 function Home() {
   return (
@@ -27,10 +28,10 @@ function Home() {
           // smooth={true}
           className={css.projectsButton}
         >
-          View Projects
+          VIEW PROJECTS
         </a>
-        <a href="hoem" className={css.downloadButton}>
-          Download CV
+        <a href={CV} className={css.downloadButton} download="IndyaMolloyCV">
+          DOWNLOAD CV
         </a>
       </div>
       <svg
@@ -39,7 +40,7 @@ function Home() {
         className={css.wave}
       >
         <path
-          fill="#F0DBD0"
+          fill="#E4DEDF"
           fill-opacity="1"
           d="M0,224L80,202.7C160,181,320,139,480,149.3C640,160,800,224,960,234.7C1120,245,1280,203,1360,181.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
         ></path>

@@ -6,7 +6,7 @@
   background-color: white;
 
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -16,10 +16,10 @@
   font-size: 1.7em;
   position: absolute;
   font-family: "Yeseva One", cursive;
-  color: rgb(85, 79, 79);
+  text-align: center;
   z-index: 2;
   top: 0;
-  left: 15vh;
+  padding: 3vh;
 }
 .bottomBox {
   background-color: #5d5c58;
@@ -37,6 +37,7 @@
   display: flex;
   justify-content: space-around;
   border-radius: 2px;
+  padding: 4vh;
 }
 
 .verticalLine {
@@ -49,7 +50,7 @@
 .title {
   font-family: "Yeseva One", cursive;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1em;
   text-align: center;
   color: rgb(85, 79, 79);
 }
@@ -57,7 +58,7 @@
   font-family: "Red Hat Display", sans-serif;
   color: rgb(85, 79, 79);
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 0.9em;
   text-align: left;
   line-height: 1.8em;
 }
