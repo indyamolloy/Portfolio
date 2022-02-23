@@ -5,5 +5,9 @@ body {
   /* overflow-x: hidden; */
 
   background-color: #f4f3ef;
+}
 
+html,
+body {
+  overflow-x: hidden;
 }

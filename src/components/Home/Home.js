@@ -10,28 +10,29 @@ function Home() {
         <p className={css.hi}>Hi,</p>
         <h1 className={css.name}>I'm Indya.</h1>
         <p className={css.description}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum
-          dolor sit amet consectetur. Quis commodo odio aenean sed adipiscing
-          diam donec adipiscing tristique.
+          I'm a software engineer and full stack developer based in Manchester,
+          UK. I'm a creative thinker with a passion to learn more. I love
+          finding solutions to real-world problems and turning ideas into
+          reality.
         </p>
       </div>
 
       <img className={css.img} src={me} alt="me" />
-
-      <Link
-        to="projects"
-        activeClass="active"
-        spy={true}
-        smooth={true}
-        className={css.projectsButton}
-      >
-        View Projects
-      </Link>
-      <button href="hoem" className={css.downloadButton}>
-        Download CV
-      </button>
-
+      <div className={css.buttons}>
+        <a
+          href="#projects"
+          // to="projects"
+          // activeClass="active"
+          // spy={true}
+          // smooth={true}
+          className={css.projectsButton}
+        >
+          View Projects
+        </a>
+        <a href="hoem" className={css.downloadButton}>
+          Download CV
+        </a>
+      </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"

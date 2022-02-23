@@ -44,6 +44,7 @@
   margin-top: 3vh;
 }
 
+
 @media screen and (max-width: 800px) {
   .navbarContainer {
     position: fixed;
