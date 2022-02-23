@@ -3,27 +3,28 @@
 .container {
   margin-top: 0;
   padding-top: 0;
-  background-color: #f0dbd0;
+  background-color: #e4dedf;
 }
 
 .flexContainer {
   position: relative;
-  background-color: #f0dbd0;
+  background-color: #e4dedf;
 
   color: black;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-content: center;
 }
 
 .heading {
   font-size: 1.7em;
   margin-top: 15vh;
-  margin-left: 15vh;
-  font-family: "Yeseva One", cursive;
-  color: rgb(85, 79, 79);
 
+  font-family: "Yeseva One", cursive;
+  padding: 2vh 0 2.5vh 0;
   position: relative;
+  text-align: center;
   z-index: 1;
 }
 
