@@ -57,6 +57,7 @@ function Contact() {
           Follow on Github
         </button>
       </div>
+      <butto className={css.hideButton}>hide</butto>
     </div>
   );
 }

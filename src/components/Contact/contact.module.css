@@ -29,10 +29,6 @@
   font-size: 0.8em;
 }
 
-.label:focus {
-  border: solid #ab6c46 1.2px;
-}
-
 .input {
   margin-bottom: 5vh;
   border-top: none;
@@ -41,7 +37,9 @@
 }
 
 .input:focus {
-  border: solid #ab6c46 1.2px;
+  outline: none !important;
+  border: 1px solid #ab6c46;
+  box-shadow: 0 0 10px #719ece;
 }
 
 .textarea {
@@ -50,7 +48,9 @@
 }
 
 .textarea:focus {
-  border: solid #ab6c46 1.2px;
+  outline: none !important;
+  border: 1px solid #ab6c46;
+  box-shadow: 0 0 10px #719ece;
 }
 
 .submitButton {
@@ -113,4 +113,10 @@
   width: 50%;
   justify-content: flex-end;
   align-items: center;
+}
+
+.hideButton {
+  height: 10px;
+  align-self: flex-end;
+  padding: 5vh;
 }
