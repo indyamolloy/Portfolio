@@ -95,7 +95,7 @@
 .followContainer {
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: absolute;
   bottom: 2vh;
   left: -1vh;
   width: 50%;
