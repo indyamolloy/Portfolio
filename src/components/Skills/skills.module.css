@@ -13,7 +13,7 @@
 }
 
 .heading {
-  font-size: 1.7em;
+  font-size: 1.3em;
   position: absolute;
   font-family: "Yeseva One", cursive;
   text-align: center;
@@ -50,7 +50,8 @@
 .title {
   font-family: "Yeseva One", cursive;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 0.8em;
+
   text-align: center;
   color: rgb(85, 79, 79);
 }
@@ -58,9 +59,10 @@
   font-family: "Red Hat Display", sans-serif;
   color: rgb(85, 79, 79);
   font-weight: 200;
-  font-size: 0.9em;
+  font-size: 0.8em;
   text-align: left;
   line-height: 1.8em;
+  margin: 0.8vh;
 }
 
 li {

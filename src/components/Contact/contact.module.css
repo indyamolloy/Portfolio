@@ -8,7 +8,7 @@
 }
 
 .heading {
-  font-size: 1.7em;
+  font-size: 1.3em;
   position: absolute;
   font-family: "Yeseva One", cursive;
   z-index: 2;
@@ -26,7 +26,7 @@
 }
 
 .label {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .input {
@@ -43,6 +43,7 @@
 
 .submitButton {
   display: inline-block;
+  position: relative;
   padding: 0.3em 1.2em 0.3em 1.2em;
   width: auto;
   border: none;
@@ -50,7 +51,7 @@
 
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 0.7em;
   background-color: #ab6c46;
   color: white;
   text-align: center;
@@ -69,7 +70,7 @@
 
 .wave {
   position: absolute;
-  top: -8vh;
+  top: -10vh;
   width: 100%;
 }
 
@@ -80,7 +81,7 @@
   border: none;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 0.6em;
   background-color: white;
 
   text-align: center;
@@ -94,8 +95,10 @@
 .followContainer {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  bottom: 8vh;
-  width: 100%;
+  position: relative;
+  bottom: 2vh;
+  left: -1vh;
+  width: 50%;
+  justify-content: flex-end;
   align-items: center;
 }
