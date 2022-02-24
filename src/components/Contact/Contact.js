@@ -16,7 +16,7 @@ function Contact() {
         ></path>
       </svg>
       <h2 className={css.heading}>Contact</h2>
-      <div className={css.followContainer}>
+      {/* <div className={css.followContainer}>
         <button className={css.followButton} type="button">
           Connect on LinkedIn
         </button>
@@ -24,7 +24,7 @@ function Contact() {
         <button className={css.followButton} type="button">
           Follow on Github
         </button>
-      </div>
+      </div> */}
       <div className={css.formContainer}>
         <form method="POST" name="contactform" className="contactForm">
           <input type="hidden" name="form-name" value="contactForm" />

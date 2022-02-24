@@ -79,3 +79,9 @@
 .bm-item:hover {
   color: #ffffff;
 }
+
+@media screen and (min-width: 800px) {
+  .bm-burger-button {
+    visibility: hidden;
+  }
+}

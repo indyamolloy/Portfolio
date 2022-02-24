@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&family=Rozha+One&family=Yeseva+One&display=swap");
 
 .navbarContainer {
-  background-color: #f4f3ef;
+  background-color: #f0eee6;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@
   /* border-bottom: white 0.8px solid; */
 }
 .link {
-  color: rgb(100, 92, 92);
+  color: rgb(46, 46, 46);
   font-size: 1.1em;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 100;
@@ -24,7 +24,6 @@
 }
 
 .link:hover {
-  color: pink;
   cursor: pointer;
 }
 .navbarLinks {
@@ -40,10 +39,9 @@
   position: relative;
   font-weight: 100;
   padding: 7vh;
-  color: rgb(100, 92, 92);
+  color: rgb(46, 46, 46);
   margin-top: 3vh;
 }
-
 
 @media screen and (max-width: 800px) {
   .navbarContainer {
@@ -57,5 +55,12 @@
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .navbarContainer {
+    top: 4.5vh;
   }
 }
