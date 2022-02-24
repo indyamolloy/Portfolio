@@ -13,7 +13,6 @@ function Navbar() {
             to="home"
             activeClass="active"
             spy={true}
-            smooth={true}
             className={(css.navbarLinks, css.link)}
           >
             HOME
@@ -22,7 +21,6 @@ function Navbar() {
             to="projects"
             activeClass="active"
             spy={true}
-            smooth={true}
             className={(css.navbarLinks, css.link)}
             offset={-220}
           >
@@ -33,7 +31,6 @@ function Navbar() {
             to="about"
             activeClass="active"
             spy={true}
-            smooth={true}
             className={(css.navbarLinks, css.link)}
             offset={-100}
           >
@@ -43,7 +40,6 @@ function Navbar() {
             to="contact"
             activeClass="active"
             spy={true}
-            smooth={true}
             className={(css.navbarLinks, css.link)}
           >
             CONTACT
