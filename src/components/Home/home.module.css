@@ -40,7 +40,8 @@ html {
 .name {
   /* position: absolute; */
   font-family: "Yeseva One", cursive;
-  font-size: 1.6em;
+  font-size: 1.4em;
+  margin-bottom: 0;
   /* color: black; */
   /* left: 30vh; */
   /* top: 33vh; */
@@ -52,7 +53,7 @@ html {
 .hi {
   /* left: 30vh; */
   /* top: 28vh; */
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 200;
   margin-bottom: 0;
@@ -66,7 +67,7 @@ html {
   /* padding-top: 4vh;
   min-width: 30vw;
   max-width: 10vw; */
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 200;
   /* height: 25vh;
@@ -86,10 +87,10 @@ html {
   margin: 0 0.3em 0.3em 0;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 300;
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: center;
   transition: all 0.2s;
-  font-weight: 300;
+  font-weight: 400;
   box-shadow: rgba(26, 26, 26, 0.19) 0px 10px 20px,
     rgba(0, 0, 0, 0.23) 0px 6px 6px;
   margin: 0 2vh 0 2vh;
