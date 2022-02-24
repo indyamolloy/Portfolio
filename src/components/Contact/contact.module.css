@@ -18,11 +18,11 @@
 }
 
 .formContainer {
-  margin-top: 20vh;
+  margin-top: 30vh;
   width: 20%;
   height: 50%;
-  margin-left: 5vh;
-  display: flex;
+  position: relative;
+  left: 13vh;
 }
 
 .label {
@@ -88,7 +88,6 @@
 
 .followButton {
   position: relative;
-
   margin: 0 0.3em 0.3em 0;
   border: none;
   font-family: "Roboto", sans-serif;
@@ -107,9 +106,7 @@
 .followContainer {
   display: flex;
   flex-direction: column;
-  position: sticky;
-  justify-content: center;
-  align-items: flex-end;
-  margin-top: 70vh;
-  margin-left: 2vh;
+  position: absolute;
+  top: 15vh;
+  left: 17vh;
 }
