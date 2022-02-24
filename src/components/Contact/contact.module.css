@@ -29,6 +29,10 @@
   font-size: 0.8em;
 }
 
+.label:focus {
+  border: solid #ab6c46 1.2px;
+}
+
 .input {
   margin-bottom: 5vh;
   border-top: none;
@@ -36,9 +40,17 @@
   border-left: none;
 }
 
+.input:focus {
+  border: solid #ab6c46 1.2px;
+}
+
 .textarea {
   resize: none;
   border: solid rgb(60, 60, 60) 1.2px;
+}
+
+.textarea:focus {
+  border: solid #ab6c46 1.2px;
 }
 
 .submitButton {
