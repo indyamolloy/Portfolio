@@ -29,6 +29,10 @@
   font-size: 0.8em;
 }
 
+.label:focus {
+  border: solid #ab6c46 1.2px;
+}
+
 .input {
   margin-bottom: 5vh;
   border-top: none;
@@ -36,9 +40,17 @@
   border-left: none;
 }
 
+.input:focus {
+  border: solid #ab6c46 1.2px;
+}
+
 .textarea {
   resize: none;
   border: solid rgb(60, 60, 60) 1.2px;
+}
+
+.textarea:focus {
+  border: solid #ab6c46 1.2px;
 }
 
 .submitButton {
@@ -83,13 +95,13 @@
   font-weight: 500;
   font-size: 0.6em;
   background-color: white;
-
+  padding: 0.5vh;
   text-align: center;
   transition: all 0.2s;
 
   color: rgb(33, 33, 33);
   border: #ab6c46 solid 1.5px;
-  width: 50%;
+  width: 60%;
 }
 
 .followContainer {
@@ -97,7 +109,7 @@
   flex-direction: column;
   position: absolute;
   bottom: 2vh;
-  left: -1vh;
+  margin: 11vh;
   width: 50%;
   justify-content: flex-end;
   align-items: center;
