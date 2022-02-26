@@ -11,3 +11,9 @@ html,
 body {
   overflow-x: hidden;
 }
+
+@media (max-width: 300px) {
+  body {
+    overflow-x: auto;
+  }
+}

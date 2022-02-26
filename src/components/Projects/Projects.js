@@ -11,22 +11,26 @@ function Projects() {
       <h2 className={css.heading}>Recent Projects</h2>
       <div className={css.flexContainer}>
         <ProjectCard
+          liveSiteUrl="https://socherosjourney.netlify.app/"
+          codeURL="https://github.com/SchoolOfCode/heros-journey-frontend"
           image={herosJourney}
           title="The Hero's Journey"
           date="January 2022 "
-          description="Technologies: React, Node, Express, SQL"
+          description="React, Node, Express, SQL"
         />
         <ProjectCard
+          liveSiteUrl="https://github.com/indyamolloy/proj"
           image={tarot}
           title="The Tarot"
           date="December 2021 "
-          description="Technologies: HTML, CSS, Vanilla JavaScript"
+          description="HTML, CSS, Vanilla JavaScript, API calls"
         />
         <ProjectCard
+          liveSiteUrl="https://github.com/indyamolloy/proj"
           image={AppProject}
           title="Family Schedueler"
-          date="January 2022 "
-          description="Technologies: React Native, Firebase"
+          date="Feburary 2022 "
+          description="React Native, Firebase"
         />
       </div>
       <svg

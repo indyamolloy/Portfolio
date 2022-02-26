@@ -22,6 +22,7 @@
 
 .container:hover {
   transform: scale(1.1);
+  transition: all 1s;
 }
 
 .image {
@@ -29,6 +30,10 @@
   height: 100%;
   position: relative;
   border-radius: 2px;
+}
+
+.image:hover {
+  cursor: pointer;
 }
 /* 
 .image:hover {
@@ -48,7 +53,51 @@
 
 .title {
   position: relative;
+  text-align: center;
   font-family: "Red Hat Display", sans-serif;
   color: rgb(0, 0, 0);
   font-size: 1em;
+}
+
+.technologies {
+  padding: 0;
+  margin-top: -2vh;
+}
+.codeButton {
+  height: auto;
+  display: inline;
+  font-size: 1em;
+  background-color: none;
+  border: none;
+  transition: all 0.4s;
+  background: none repeat scroll 0 0 transparent;
+  position: absolute;
+  /* bottom: 2vh;
+  left: 12vh; */
+}
+
+.codeButton:hover {
+  text-decoration: underline;
+  transition: ease-in 2s;
+}
+
+.codeButton:visited {
+  color: black;
+}
+
+@media screen and (min-width: 420px) {
+  .codeButton {
+    bottom: 2vh;
+    left: 12vh;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 300px) {
+  .container {
+    overflow-x: scroll;
+  }
+  .image {
+    min-width: 50%;
+    height: auto;
+  }
 }
