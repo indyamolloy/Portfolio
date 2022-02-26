@@ -111,3 +111,10 @@
     position: relative;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .codeButton {
+    bottom: 0vh;
+    left: 0vh;
+  }
+}
