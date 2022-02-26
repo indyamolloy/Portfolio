@@ -134,3 +134,8 @@ li {
     }
   }
 }
+@media (min-width: 800px) {
+  .heading {
+    font-size: 1.6em;
+  }
+}

@@ -92,7 +92,7 @@
   border: none;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 0.6em;
+  font-size: 0.8em;
   background-color: white;
   padding: 0.5vh;
   text-align: center;
@@ -100,18 +100,43 @@
 
   color: rgb(33, 33, 33);
   border: #ab6c46 solid 1.5px;
-  width: 12vh;
+  width: 30vh;
+  padding: 3vh;
+  margin: 2vh;
+}
+
+.followButton:hover {
+  border: #df7534 solid 1.5px;
 }
 
 .followContainer {
+  visibility: hidden;
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 15vh;
+  top: 25vh;
+  right: 40vh;
 }
 
 @media screen and (min-width: 1060px) {
   .formContainer {
     width: 10vh;
+  }
+}
+
+@media (min-width: 800px) {
+  .heading {
+    font-size: 1.6em;
+  }
+  .formContainer {
+    left: -40vh;
+    width: 30vh;
+  }
+  .submitButton {
+    font-size: 0.8em;
+  }
+
+  .followContainer {
+    visibility: visible;
   }
 }
