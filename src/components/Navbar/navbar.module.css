@@ -21,11 +21,17 @@
   font-family: "Red Hat Display", sans-serif;
   font-weight: 100;
   padding: 2vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+
+  transition: border-bottom 300ms;
+  padding-bottom: 0;
 }
 
 .link:hover {
   cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
+
 .navbarLinks {
   padding: 7vh;
   position: relative;

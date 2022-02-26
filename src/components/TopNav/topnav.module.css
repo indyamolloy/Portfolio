@@ -7,7 +7,8 @@
   max-height: 4ch;
 }
 .socialIcon:hover {
-  color: white;
+  color: #ededed;
+  transition: all ease 0.5s;
 }
 .container {
   background-color: #9fa292;
