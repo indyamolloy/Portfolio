@@ -19,14 +19,15 @@ function Projects() {
           description="React, Node, Express, SQL"
         />
         <ProjectCard
-          liveSiteUrl="https://github.com/indyamolloy/proj"
+          liveSiteUrl="https://github.com/indyamolloy/Christmas-Project"
           image={tarot}
           title="The Tarot"
           date="December 2021 "
           description="HTML, CSS, Vanilla JavaScript, API calls"
         />
         <ProjectCard
-          liveSiteUrl="https://github.com/indyamolloy/proj"
+          liveSiteUrl="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
+          codeURL="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
           image={AppProject}
           title="Family Scheduler"
           date="Feburary 2022 "
