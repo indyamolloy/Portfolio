@@ -122,3 +122,15 @@ li {
     overflow-x: scroll;
   }
 }
+
+@media (min-width: 1000px) {
+  @media (max-height: 520px) {
+    .wave {
+      display: none;
+    }
+    .whiteOverlay {
+      height: 70%;
+      overflow-y: scroll;
+    }
+  }
+}

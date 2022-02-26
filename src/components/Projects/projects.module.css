@@ -31,3 +31,11 @@
   position: relative;
   bottom: -1vh;
 }
+
+@media (min-width: 1000px) {
+  @media (max-height: 520px) {
+    .wave {
+      display: none;
+    }
+  }
+}
