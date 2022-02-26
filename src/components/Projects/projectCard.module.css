@@ -94,7 +94,7 @@
 
 @media (min-width: 0px) and (max-width: 300px) {
   .container {
-    overflow: scroll;
+    /* overflow: scroll; */
   }
   .image {
     min-width: 50%;
