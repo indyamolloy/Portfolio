@@ -243,3 +243,19 @@ html {
     visibility: hidden;
   }
 }
+
+@media (min-width: 0px) and (max-width: 300px) {
+  .container {
+    overflow: scroll;
+  }
+  .image {
+    min-width: 50%;
+    height: auto;
+  }
+  .title {
+    font-size: 0.9em;
+  }
+  .description {
+    font-size: 0.5em;
+  }
+}
