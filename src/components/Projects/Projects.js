@@ -28,7 +28,7 @@ function Projects() {
         <ProjectCard
           liveSiteUrl="https://github.com/indyamolloy/proj"
           image={AppProject}
-          title="Family Schedueler"
+          title="Family Scheduler"
           date="Feburary 2022 "
           description="React Native, Firebase"
         />
