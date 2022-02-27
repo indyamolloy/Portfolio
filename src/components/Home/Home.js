@@ -1,7 +1,6 @@
 import React from "react";
 import css from "./home.module.css";
 import me from "../../images/me.png";
-import { Link } from "react-scroll";
 import CV from "../../images/IndyaMolloyCV.pdf";
 
 function Home() {
