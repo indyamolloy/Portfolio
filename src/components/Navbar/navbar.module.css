@@ -70,3 +70,9 @@
     top: 4.5vh;
   }
 }
+
+@media (max-width: 2000px) and (max-height: 465px) {
+  .navbarContainer {
+    height: 20%;
+  }
+}

@@ -90,7 +90,7 @@
 @media screen and (min-width: 420px) {
   .codeButton {
     bottom: 2vh;
-    left: 12vh;
+    left: 11vh;
   }
 }
 
@@ -126,5 +126,12 @@
   } */
   .description {
     font-size: 0.65rem;
+  }
+}
+
+@media (min-width: 1180px) and (min-height: 730px) {
+  .codeButton {
+    width: 100%;
+    left: 10vh;
   }
 }

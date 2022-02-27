@@ -40,3 +40,9 @@
     z-index: 5;
   }
 }
+
+@media (max-height: 500px) {
+  .socialIcon {
+    font-size: 3vh;
+  }
+}
