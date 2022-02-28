@@ -11,7 +11,7 @@ function Projects() {
       <h2 className={css.heading}>Recent Projects</h2>
       <div className={css.flexContainer}>
         <ProjectCard
-          liveSiteUrl="https://herosjourney.netlify.app/"
+          liveSiteUrl="https://theherosjourney.netlify.app/"
           codeURL="https://github.com/SchoolOfCode/heros-journey-frontend"
           image={herosJourney}
           title="The Hero's Journey"
