@@ -13,6 +13,7 @@ function ProjectCard(props) {
         <h4 className={css.title}>{props.title}</h4>
         <p>Technologies:</p>
         <p className={css.technologies}>{props.description}</p>
+        <h4 className={css.title}>{props.progress}</h4>
         <a href={props.codeURL} className={css.codeButton}>
           View Code
           <svg

@@ -11,7 +11,7 @@ function Projects() {
       <h2 className={css.heading}>Recent Projects</h2>
       <div className={css.flexContainer}>
         <ProjectCard
-          liveSiteUrl="https://socherosjourney.netlify.app/"
+          liveSiteUrl="https://herosjourney.netlify.app/"
           codeURL="https://github.com/SchoolOfCode/heros-journey-frontend"
           image={herosJourney}
           title="The Hero's Journey"
@@ -19,11 +19,13 @@ function Projects() {
           description="React, Node, Express, SQL"
         />
         <ProjectCard
-          liveSiteUrl="https://github.com/indyamolloy/Christmas-Project"
+          liveSiteUrl="https://thetarot.netlify.app/"
+          codeURL="https://github.com/indyamolloy/Christmas-Project"
           image={tarot}
           title="The Tarot"
           date="December 2021 "
-          description="HTML, CSS, Vanilla JavaScript, API calls"
+          description="HTML, CSS, Vanilla JavaScript, API calls "
+          progress="*IN PROGRESS"
         />
         <ProjectCard
           liveSiteUrl="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
@@ -32,6 +34,7 @@ function Projects() {
           title="Family Scheduler"
           date="Feburary 2022 "
           description="React Native, Firebase"
+          progress="*IN PROGRESS"
         />
       </div>
       <svg
