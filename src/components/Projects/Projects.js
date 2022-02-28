@@ -25,7 +25,6 @@ function Projects() {
           title="The Tarot"
           date="December 2021 "
           description="HTML, CSS, Vanilla JavaScript, API calls "
-          progress="*IN PROGRESS"
         />
         <ProjectCard
           liveSiteUrl="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
@@ -34,7 +33,7 @@ function Projects() {
           title="Family Scheduler"
           date="Feburary 2022 "
           description="React Native, Firebase"
-          progress="*IN PROGRESS"
+          progress="*IN PROGRESS*"
         />
       </div>
       <svg
