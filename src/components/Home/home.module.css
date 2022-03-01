@@ -272,6 +272,22 @@ html {
 @media (min-width: 980px) {
   .buttons {
     z-index: 2;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    left: -25vh;
+  }
+  .buttons > a {
+    padding: 1.7vh 3vh 1.7vh 3vh;
+  }
+  .img {
+    /* right: 15vh; */
+    float: left;
+  }
+  .intro {
+    max-width: 50vh;
+    font-size: 1.2em;
   }
 }
 
