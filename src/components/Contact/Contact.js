@@ -7,14 +7,21 @@ function Contact() {
     <div id="contact" className={css.container}>
       <h2 className={css.heading}>Contact</h2>
       <div className={css.followContainer}>
-       
-        <button className={css.followButton} type="button">
+        <a
+          href="https://www.linkedin.com/in/indya-carroll-molloy-51702a231/"
+          className={css.followButton}
+          type="button"
+        >
           Connect on LinkedIn
-        </button>
+        </a>
 
-        <button className={css.followButton} type="button">
+        <a
+          href="https://github.com/indyamolloy"
+          className={css.followButton}
+          type="button"
+        >
           Follow on Github
-        </button>
+        </a>
       </div>
       <div className={css.formContainer}>
         <form method="POST" name="contactform" className="contactForm">
