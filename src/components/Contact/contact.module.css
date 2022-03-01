@@ -129,20 +129,19 @@
     font-size: 1.6em;
   }
   .formContainer {
-    margin: 0 auto;
     width: 20vh;
     position: relative;
-    top: 20vh;
-    left: -20vh;
+    top: 1vh;
+    left: -40vh;
   }
   .submitButton {
     font-size: 0.8em;
   }
 
   .followContainer {
-    position: absolute;
+    position: relative;
     visibility: visible;
-    right: 20vh;
+    left: 40vh;
     top: 20vh;
   }
 }

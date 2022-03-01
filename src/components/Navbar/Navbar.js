@@ -6,7 +6,7 @@ import TopNav from "../TopNav/TopNav";
 function Navbar() {
   return (
     <div>
-      <TopNav />
+      {/* <TopNav /> */}
       <div className={css.navbarContainer}>
         <nav>
           <Link

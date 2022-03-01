@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&family=Rozha+One&family=Yeseva+One&display=swap");
 
 .container {
-  margin-top: 0;
-  padding-top: 0;
-  background-color: #e4dedf;
+  margin-top: -10vh;
+  padding-top: -10vh;
+  background-color: white;
 }
 
 .flexContainer {
   position: relative;
-  background-color: #e4dedf;
+  background-color: white;
   color: black;
   display: flex;
   justify-content: space-around;
@@ -25,11 +25,6 @@
   position: relative;
   text-align: center;
   z-index: 1;
-}
-
-.wave {
-  position: relative;
-  bottom: -1vh;
 }
 
 @media (min-width: 1000px) {
