@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-scroll";
 import css from "./navbar.module.css";
 import TopNav from "../TopNav/TopNav";
+import namelogo from "../../images/name1.png";
 
 function Navbar() {
   return (
     <div>
-      {/* <TopNav /> */}
+      <TopNav />
       <div className={css.navbarContainer}>
         <nav>
           <Link
@@ -26,7 +27,7 @@ function Navbar() {
           >
             PROJECTS
           </Link>
-          <span className={css.name}>Indya Molloy</span>
+          <img className={css.namelogo} src={namelogo} />
           <Link
             to="about"
             activeClass="active"

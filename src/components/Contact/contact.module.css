@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;700&family=Red+Hat+Display:wght@400;500&display=swap");
+
 .container {
   position: relative;
   background-color: white;
@@ -10,7 +12,8 @@
 .heading {
   font-size: 1.3em;
   position: absolute;
-  font-family: "Yeseva One", cursive;
+  font-family: "Noto Serif Display", serif;
+  font-weight: 300;
   z-index: 2;
   top: 8vh;
   width: 100%;

@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&family=Rozha+One&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;700&family=Red+Hat+Display:wght@400;500&display=swap");
 
 .container {
   margin-top: -10vh;
   padding-top: -10vh;
   background-color: white;
+  margin-bottom: 10vh;
 }
 
 .flexContainer {
@@ -19,12 +20,13 @@
 .heading {
   font-size: 1.3em;
   margin-top: 15vh;
-
-  font-family: "Yeseva One", cursive;
+  font-family: "Noto Serif Display", serif;
+  font-weight: 300;
   padding: 2vh 0 2.5vh 0;
   position: relative;
   text-align: center;
   z-index: 1;
+  padding-top: 10vh;
 }
 
 @media (min-width: 1000px) {
