@@ -11,7 +11,7 @@
 }
 
 .heading {
-  font-size: 1.3em;
+  font-size: 1.5em;
   position: absolute;
   font-family: "Noto Serif Display", serif;
   font-weight: 300;
@@ -22,19 +22,144 @@
 }
 
 .image {
-  width: 45%;
-  height: 30%;
+  /* width: 40vw;
+  max-width: 350px;
+  min-width: 130px;
+  height: 50vw;
+  max-height: 350px;
+  min-height: 100px;
+  margin-top: 25vh; */
   object-fit: cover;
   border-radius: 150px 150px 0 0;
-  margin-top: 20vh;
-  margin-right: 1vh;
+  z-index: 1;
+  /* border: solid 5px #ab6c46; */
+  /* box-shadow: #ab6c46 0px 1px 2px 0px, #ab6c46 0px 2px 6px 2px; */
 }
 
 .aboutMe {
   width: 40%;
+  max-width: 400px;
   margin-top: 20vh;
-  margin-left: 50vw;
+  margin-left: 10vw;
+  margin-right: 10vh;
   font-family: "Red Hat Display", serif;
   font-size: 1em;
   font-weight: 300;
+}
+
+@media (max-height: 510px) {
+  /* .image {
+    height: 50vh;
+    width: 35vh;
+  } */
+  .aboutMe {
+    margin-right: 5vh;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-height: 1180px) {
+  .container {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .aboutMe {
+    width: 70%;
+    font-size: 0.8em;
+    align-self: center;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    position: relative;
+    top: -10vh;
+  }
+
+  .image {
+    align-self: center;
+    height: 20vh;
+    position: relative;
+    top: 10vh;
+  }
+}
+
+/* @media (max-width: 400px) {
+  .aboutMe {
+    width: 90%;
+    font-size: 0.8em;
+  }
+  .image {
+    display: none;
+  }
+} */
+
+@media (max-width: 480px) {
+  .container {
+    height: 110vh;
+  }
+  .aboutMe {
+    width: 70%;
+    font-size: 0.8em;
+    align-self: center;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    position: relative;
+    top: -5vh;
+  }
+
+  .image {
+    align-self: center;
+    height: 20vh;
+    position: relative;
+    top: 15vh;
+  }
+}
+
+@media (min-width: 700px) {
+  .aboutMe {
+    width: 70%;
+    font-size: 1em;
+    align-self: center;
+
+    position: relative;
+    top: -5vh;
+  }
+
+  .image {
+    align-self: center;
+    height: 50vh;
+    position: relative;
+  }
+}
+
+@media (max-height: 500px) {
+  .aboutMe {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-height: 366px) {
+  .container {
+    height: 140vh;
+  }
+
+  .aboutMe {
+    font-size: 0.8em;
+    width: 80vw;
+    top: 10vh;
+  }
+  .image {
+    display: none;
+  }
+}
+
+@media (max-height: 264px) {
+  .container {
+    height: 200vh;
+  }
 }

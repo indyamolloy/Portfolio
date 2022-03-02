@@ -414,6 +414,13 @@ html {
   top: 20vh;
 }
 
+.socialIcon {
+  color: #ab6c46;
+}
+.socialIcon:hover {
+  color: #8f5f42;
+}
+
 .icon {
   margin: 1vh;
 }
@@ -426,18 +433,19 @@ html {
 
 .buttons {
   margin: 0 auto;
-  padding-top: 10vh;
+  margin-top: 10vh;
   margin-left: -2vh;
+  width: 100%;
 }
 
 .buttons > a {
   display: inline;
   width: auto;
-  padding: 15px;
+  padding: 14px;
   margin: 0 0.3em 0.3em 0;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 300;
-  font-size: 0.6em;
+  font-size: 0.7em;
   text-align: center;
   transition: all 0.2s;
   font-weight: 400;
@@ -513,15 +521,15 @@ html {
     flex-direction: column;
   }
   .img {
-    height: 20%;
+    height: 28%;
     width: auto;
     position: absolute;
-    top: 9vh;
+    top: 7vh;
     padding: 0;
     margin: 0;
   }
   .intro {
-    width: 70vw;
+    width: 60vw;
     margin: 0 auto;
     padding: 0;
     margin: 0;
@@ -532,9 +540,11 @@ html {
   }
   .buttons {
     position: relative;
-    width: 100vw;
-    margin-left: -2vh;
+    margin-top: 8vh;
+    margin-left: 0;
+    padding-top: 5vh;
   }
+
   .socialIcons {
     visibility: hidden;
   }
@@ -552,7 +562,7 @@ html {
 
 @media (min-height: 200px) and (max-height: 400px) {
   .homeContainer {
-    height: 120vh;
+    height: 100vh;
     top: -5vh;
   }
   .buttons {
@@ -571,6 +581,8 @@ html {
 }
 
 @media (max-height: 570px) and (max-width: 800px) {
+  .homeContainer {
+  }
   .img {
     /* top: 15vh;
     height: 20%; */
@@ -580,5 +592,39 @@ html {
     font-size: 0.7em;
     position: relative;
     top: -8vh;
+  }
+}
+
+@media (max-width: 333px) {
+  .buttons > a {
+    display: block;
+    margin-top: 2vh;
+    padding: 1vh;
+  }
+  .img {
+    display: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 475px) {
+  .img {
+    height: 20%;
+    top: 10vh;
+  }
+  .intro {
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 330px) and (max-width: 417px) {
+  .buttons {
+    margin-left: 0;
+    padding-left: 1.5vh;
+    display: flex;
+    margin-top: 0;
+  }
+  .buttons > a {
+    align-items: center;
+    padding: 1vh;
   }
 }

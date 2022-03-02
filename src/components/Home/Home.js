@@ -9,8 +9,20 @@ function Home() {
     <div id="home" className={css.homeContainer}>
       <div className={css.overlay}>
         <div className={css.socialIcons}>
-          <FaLinkedin className={css.icon} />
-          <FaGithubSquare className={css.icon} />
+          <a
+            className={css.socialIcon}
+            href="https://github.com/indyamolloy"
+            target="_blank"
+          >
+            <FaGithubSquare className={css.icon} />
+          </a>
+          <a
+            className={css.socialIcon}
+            href="https://www.linkedin.com/in/indya-carroll-molloy-51702a231/"
+            target="_blank"
+          >
+            <FaLinkedin className={css.icon} />
+          </a>
         </div>
         <div className={css.intro}>
           <p className={css.hi}>Hi,</p>

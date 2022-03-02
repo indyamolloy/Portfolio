@@ -4,11 +4,7 @@ import css from "./skills.module.css";
 function Skills() {
   return (
     <div id="about" className={css.container}>
-      <h2 className={css.heading}>
-        {" "}
-        About
-        <p>Skills</p>
-      </h2>
+      <h2 className={css.heading}> About</h2>
 
       <div className={css.whiteOverlay}>
         <p className={css.title}>

@@ -21,6 +21,12 @@
   top: 0;
   padding: 3vh;
 }
+
+.subheading {
+  margin-top: 2vh;
+  font-size: 0.8em;
+}
+
 .bottomBox {
   background-color: #ab6c46;
   width: 100%;
@@ -48,7 +54,7 @@
 }
 
 .title {
-  font-family: "Noto Serif Display", serif;
+  font-family: "Red Hat Display", sans-serif;
 
   font-weight: 700;
   font-size: 0.8em;
@@ -104,13 +110,13 @@ li {
   }
   .whiteOverlay {
     margin: 15vh;
-    height: 70%;
+    /* height: 70%; */
   }
 }
 
 @media screen and (min-width: 830px) {
   .container {
-    height: 120vh;
+    height: 110vh;
   }
   .whiteOverlay {
     margin: 15vh;
@@ -130,7 +136,7 @@ li {
       display: none;
     }
     .whiteOverlay {
-      height: 70%;
+      /* height: 70%; */
       overflow-y: scroll;
     }
   }
@@ -147,6 +153,18 @@ li {
     height: 50%;
   }
   .container {
-    height: 300vh;
+    height: 150vh;
   }
 }
+
+@media all and (display-mode: fullscreen) {
+  .list {
+    font-size: 1.2em;
+  }
+}
+
+/* @media (max-width: 330px) {
+  .list {
+    overflow: scroll;
+  }
+} */

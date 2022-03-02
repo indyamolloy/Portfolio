@@ -50,7 +50,7 @@
 } */
 
 .namelogo {
-  width: 45vh;
+  width: 33%;
 }
 
 @media screen and (max-width: 800px) {
@@ -73,22 +73,28 @@
   .navbarContainer {
     text-align: center;
   }
-  .namelogo {
+  /* .namelogo {
     height: 6vw;
-  }
+  } */
   .link {
-    padding: 3vw;
+    padding: 2.5vw;
   }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1068px) {
-  .namelogo {
+  /* .namelogo {
     height: 6vw;
-  }
+  } */
 }
 
-@media (max-width: 2000px) and (max-height: 465px) {
-  .navbarContainer {
-    height: 20%;
+@media (min-width: 800px) and (max-width: 890px) {
+  /* .namelogo {
+    width: 35vh;
+  } */
+}
+
+@media (max-height: 420px) {
+  .namelogo {
+    width: 55vh;
   }
 }

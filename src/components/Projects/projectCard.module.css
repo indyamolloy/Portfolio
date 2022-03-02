@@ -48,7 +48,7 @@
   left: 1vh;
   padding: 1vh;
   font-size: 0.5em;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 .title {
@@ -142,7 +142,7 @@
 @media (min-width: 1180px) and (min-height: 730px) {
   .codeButton {
     width: 100%;
-    left: 30vh;
+    left: 28vh;
   }
 }
 
