@@ -2,12 +2,16 @@ import React from "react";
 import css from "./home.module.css";
 import me from "../../images/me.png";
 import CV from "../../images/IndyaMolloyCV.pdf";
-import overlay from "../../images/background.png";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 function Home() {
   return (
     <div id="home" className={css.homeContainer}>
       <div className={css.overlay}>
+        <div className={css.socialIcons}>
+          <FaLinkedin className={css.icon} />
+          <FaGithubSquare className={css.icon} />
+        </div>
         <div className={css.intro}>
           <p className={css.hi}>Hi,</p>
           <h1 className={css.name}>I'm Indya.</h1>

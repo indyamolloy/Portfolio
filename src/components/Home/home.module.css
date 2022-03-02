@@ -380,11 +380,13 @@
   color: #4a130e;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 300;
+  padding-left: 5vh;
 }
 
 .name {
   font-family: "Noto Serif Display", serif;
   font-size: 1.8em;
+  margin-top: -1.5vw;
 }
 .overlay {
   background-image: url("/src/images/background.png");
@@ -392,21 +394,36 @@
   background-size: 98vw 90vh;
   background-position: center;
   height: 90vh;
-  width: 95%;
+  width: 92%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.socialIcons {
+  font-size: 2.5vw;
+  color: #ab6c46;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0vh;
+  top: 20vh;
+}
+
+.icon {
+  margin: 1vh;
+}
+
 .img {
-  height: 50vh;
-  margin-top: -10vh;
-  margin-left: 10vh;
+  height: 45vh;
+  margin-top: -18vh;
+  margin-left: 1vh;
 }
 
 .buttons {
   margin: 0 auto;
   padding-top: 10vh;
+  margin-left: -2vh;
 }
 
 .buttons > a {
@@ -507,12 +524,57 @@
     padding-top: 20vh;
   }
   .name {
-    font-family: "Yeseva One", cursive;
     margin-top: -2vh;
   }
   .buttons {
     position: relative;
     width: 100vw;
     margin-left: -2vh;
+  }
+  .socialIcons {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 300px) {
+  .buttons {
+    bottom: 5vh;
+  }
+  .buttons > a {
+    font-size: 0.6em;
+    padding: 2vw;
+  }
+}
+
+@media (min-height: 200px) and (max-height: 400px) {
+  .homeContainer {
+    height: 120vh;
+    top: -5vh;
+  }
+  .buttons {
+    position: relative;
+    bottom: 8vh;
+  }
+
+  .buttons > a {
+    font-size: 0.6em;
+    padding: 1em;
+  }
+  .intro {
+    width: 50%;
+    margin-top: 8vh;
+  }
+}
+
+@media (max-height: 570px) and (max-width: 800px) {
+  .img {
+    /* top: 15vh;
+    height: 20%; */
+    visibility: hidden;
+  }
+  .intro {
+    font-size: 0.7em;
+    position: relative;
+    top: -8vh;
   }
 }

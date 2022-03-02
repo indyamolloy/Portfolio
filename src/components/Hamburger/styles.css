@@ -1,9 +1,9 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
-  width: 2.7vh;
+  width: 2.8vh;
   height: 2.5vh;
-  right: 2vh;
+  right: 3.5%;
   top: 1.5vh;
 }
 
@@ -83,5 +83,14 @@
 @media screen and (min-width: 800px) {
   .bm-burger-button {
     visibility: hidden;
+  }
+}
+
+@media (max-height: 400px) and (max-width: 800px) {
+  .bm-burger-button {
+    width: 5vh;
+    height: 5vh;
+    right: 3.5%;
+    top: 3vh;
   }
 }

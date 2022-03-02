@@ -8,7 +8,7 @@
 }
 
 .links {
-  margin-left: 1vh;
+  margin-left: 2%;
 }
 
 .socialIcon:hover {
@@ -49,5 +49,20 @@
 @media (max-height: 500px) {
   .socialIcon {
     font-size: 3vh;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    visibility: hidden;
+  }
+}
+
+@media (max-height: 400px) and (max-width: 800px) {
+  .container {
+    height: 7vh;
+  }
+  .socialIcon {
+    font-size: 1em;
   }
 }
