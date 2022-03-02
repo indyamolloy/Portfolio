@@ -1,30 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&family=Rozha+One&family=Yeseva+One&display=swap");
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 .homeContainer {
   /* background-color: black;
   font-family: "Open Sans", sans-serif;
   color: white;
   width: 100vh; */
-  position: relative;
-
-  background-color: #f0eee6;
-
-  width: 100%;
+  /* position: relative;
+  background-color: white; */
+  /* width: 100%;
   height: 80vh;
   display: inline-flex;
   justify-content: center;
   align-items: center;
 
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: 0; */
+}
+/* 
+.overlay {
+  width: 95vw;
+  height: 90vh;
+  padding-top: 5vh;
 }
 
 .img {
-  position: absolute;
+  position: relative;
   height: 20%;
   width: auto;
   margin: 0 auto;
@@ -42,7 +46,7 @@ html {
   content: "";
   width: 20%;
   height: 30%;
-  position: absolute;
+  position: relative;
   top: 20px;
   right: -30px;
   border-top: 1px solid rgb(38, 38, 38);
@@ -54,7 +58,7 @@ html {
   content: "";
   width: 20%;
   height: 30%;
-  position: absolute;
+  position: relative;
   bottom: -20px;
   left: -50px;
   border-bottom: 1px solid rgb(87, 87, 87);
@@ -64,37 +68,36 @@ html {
 .name {
   font-family: "Yeseva One", cursive;
   font-size: 1.4em;
-  margin-bottom: 0;
-  /* color: black; */
-  /* left: 30vh; */
-  /* top: 33vh; */
-  /* width: 80vh;
+  margin-bottom: 0; */
+/* color: black; */
+/* left: 30vh; */
+/* top: 33vh; */
+/* width: 80vh;
   display: block;
   z-index: 2; */
-}
 
+/* 
 .hi {
-  /* left: 30vh; */
-  /* top: 28vh; */
+
   font-size: 1em;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 200;
   margin-bottom: 0;
-}
+} */
 
-.description {
-  /* top: 35vh;
+/* .description { */
+/* top: 35vh;
   left: 30vh; */
-  /* padding-top: 4vh;
+/* padding-top: 4vh;
   min-width: 30vw;
   max-width: 10vw; */
-  font-size: 1em;
+/* font-size: 1em;
   font-family: "Red Hat Display", sans-serif;
-  font-weight: 200;
-  /* height: 25vh;
+  font-weight: 200; */
+/* height: 25vh;
   border-radius: 10px; */
-}
 
+/* 
 .buttons {
   position: absolute;
   top: 65vh;
@@ -151,7 +154,7 @@ html {
   position: absolute;
   bottom: -16vh;
   width: 100%;
-}
+} */
 /* 
 @media screen and (max-width: 1070px) {
   .img {
@@ -166,36 +169,34 @@ html {
   }
 } */
 
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) {
   .img {
     position: absolute;
     height: 50%;
     width: auto;
     margin: 0 auto;
-    top: 28vh;
+    top: 2vh;
     right: 10vh;
   }
   .intro {
     position: relative;
     width: 40%;
     padding-top: 8vh;
-    left: -25vh;
+    left: 15vh;
   }
 
   .wave {
     position: absolute;
     bottom: -16vh;
     width: 100%;
-  }
-
+  } */
+/* 
   .homeContainer {
-    /* background-color: black;
+    background-color: black;
   font-family: "Open Sans", sans-serif;
   color: white;
-  width: 100vh; */
+  width: 100vh;
     position: relative;
-
-    background-color: #f0eee6;
 
     width: 100%;
     height: 100vh;
@@ -207,9 +208,9 @@ html {
     margin-bottom: 0;
   }
   .buttons {
-    position: absolute;
+    position: relative;
     top: 80vh;
-    left: 10%;
+    left: 10vh;
     width: 40%;
   }
 }
@@ -269,7 +270,7 @@ html {
   }
 }
 
-@media (min-width: 980px) {
+@media (min-width: 800px) {
   .buttons {
     z-index: 2;
     display: flex;
@@ -280,14 +281,18 @@ html {
   }
   .buttons > a {
     padding: 1.7vh 3vh 1.7vh 3vh;
-  }
-  .img {
-    /* right: 15vh; */
-    float: left;
+  } */
+/* .img {
+    right: 15vh;
+
+    position: relative;
+    left: 5vh;
   }
   .intro {
     max-width: 50vh;
-    font-size: 1.2em;
+    font-size: 1em;
+    position: relative;
+    left: 11vh;
   }
 }
 
@@ -322,5 +327,304 @@ html {
   }
   .wave {
     display: none;
+  }
+}
+
+@media all and (display-mode: fullscreen) {
+  .img {
+    position: relative;
+    right: -25%;
+  }
+  .intro {
+    position: relative;
+    left: 20%;
+  }
+  .buttons {
+    position: relative;
+    left: -38%;
+  }
+}
+
+@media (max-height: 600px) {
+  .intro {
+    font-size: 1em;
+  }
+} */
+
+/* @media (max-width: 970px) {
+  .img {
+    position: relative;
+    left: 30vh;
+  }
+} */
+
+/* new CSS */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&family=Red+Hat+Display:wght@400;500&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.homeContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.intro {
+  width: 70vh;
+  max-width: 600px;
+  font-size: 1em;
+  margin-top: 0vh;
+  margin-right: 5vh;
+  color: #4a130e;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 300;
+  padding-left: 5vh;
+}
+
+.name {
+  font-family: "Noto Serif Display", serif;
+  font-size: 1.8em;
+  margin-top: -1.5vw;
+}
+.overlay {
+  background-image: url("/src/images/background.png");
+  background-repeat: no-repeat;
+  background-size: 98vw 90vh;
+  background-position: center;
+  height: 90vh;
+  width: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialIcons {
+  font-size: 2.5vw;
+  color: #ab6c46;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0vh;
+  top: 20vh;
+}
+
+.socialIcon {
+  color: #ab6c46;
+}
+.socialIcon:hover {
+  color: #8f5f42;
+}
+
+.icon {
+  margin: 1vh;
+}
+
+.img {
+  height: 45vh;
+  margin-top: -10vh;
+  margin-left: 1vh;
+}
+
+.buttons {
+  margin: 0 auto;
+  margin-top: 10vh;
+  margin-left: -2vh;
+  width: 100%;
+}
+
+.buttons > a {
+  display: inline;
+  width: auto;
+  padding: 14px;
+  margin: 0 0.3em 0.3em 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 300;
+  font-size: 0.7em;
+  text-align: center;
+  transition: all 0.2s;
+  font-weight: 400;
+  box-shadow: rgba(26, 26, 26, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 0 2vh 0 2vh;
+}
+
+.projectsButton {
+  background-color: #ab6c46;
+  color: white;
+}
+
+.projectsButton:hover {
+  background-color: #ab6c46;
+  color: white;
+  cursor: pointer;
+}
+
+.projectsButton:visited {
+  text-decoration: none;
+}
+
+.downloadButton {
+  background-color: #ede9e0;
+  color: rgb(100, 92, 92);
+  border: solid 1px #ab6c46;
+}
+
+.downloadButton:hover {
+  cursor: pointer;
+  background-color: #ededed;
+}
+
+.downloadButton:visited {
+  color: rgb(100, 92, 92);
+}
+
+@media (max-width: 850px) {
+  .intro {
+    padding-left: 10vh;
+  }
+  .img {
+    padding-right: 8vh;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 800px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .homeContainer {
+    position: relative;
+
+    width: 100%;
+    height: 80vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+  }
+  .overlay {
+    background-color: #ede9e0;
+    background-image: url("/src/images/mobilebackground.png");
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .img {
+    height: 28%;
+    width: auto;
+    position: absolute;
+    top: 7vh;
+    padding: 0;
+    margin: 0;
+  }
+  .intro {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+    padding-top: 20vh;
+  }
+  .name {
+    margin-top: -2vh;
+  }
+  .buttons {
+    position: relative;
+    margin-top: 8vh;
+    margin-left: 0;
+    padding-top: 5vh;
+  }
+
+  .socialIcons {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 300px) {
+  .buttons {
+    bottom: 5vh;
+  }
+  .buttons > a {
+    font-size: 0.6em;
+    padding: 2vw;
+  }
+}
+
+@media (min-height: 200px) and (max-height: 400px) {
+  .homeContainer {
+    height: 100vh;
+    top: -5vh;
+  }
+  .buttons {
+    position: relative;
+    bottom: 8vh;
+  }
+
+  .buttons > a {
+    font-size: 0.6em;
+    padding: 1em;
+  }
+  .intro {
+    width: 50%;
+    margin-top: 8vh;
+  }
+}
+
+@media (max-height: 570px) and (max-width: 800px) {
+  .homeContainer {
+  }
+  .img {
+    /* top: 15vh;
+    height: 20%; */
+    visibility: hidden;
+  }
+  .intro {
+    font-size: 0.7em;
+    position: relative;
+    top: -8vh;
+  }
+}
+
+@media (max-width: 333px) {
+  .buttons > a {
+    display: block;
+    margin-top: 2vh;
+    padding: 1vh;
+  }
+  .img {
+    display: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 475px) {
+  .img {
+    height: 20%;
+    top: 10vh;
+  }
+  .intro {
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 330px) and (max-width: 417px) {
+  .buttons {
+    margin-left: 0;
+    padding-left: 1.5vh;
+    display: flex;
+    margin-top: 0;
+  }
+  .buttons > a {
+    align-items: center;
+    padding: 1vh;
   }
 }

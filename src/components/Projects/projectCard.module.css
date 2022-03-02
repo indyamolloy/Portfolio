@@ -3,16 +3,16 @@
 .container {
   position: relative;
   margin: 5vh;
-  background-color: #fafafa;
+  background-color: #f4f3ef;
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   display: flex;
   justify-content: flex-end;
-  border-radius: 2px;
-  max-width: 90%;
+  border-radius: 5px;
+
   width: 90vw;
-  max-width: 500px;
+  max-width: 800px;
   transition: all 0.2s ease-in-out;
   /* width: 100%;
   height: 100%;
@@ -26,8 +26,8 @@
 }
 
 .image {
-  width: 70%;
-  height: 100%;
+  width: 60%;
+  height: auto;
   position: relative;
   border-radius: 2px;
 }
@@ -44,11 +44,11 @@
 .description {
   position: relative;
   font-family: "Red Hat Display", sans-serif;
-  width: 35%;
+  width: 50%;
   left: 1vh;
   padding: 1vh;
   font-size: 0.5em;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 .title {
@@ -90,7 +90,17 @@
 @media screen and (min-width: 420px) {
   .codeButton {
     bottom: 2vh;
-    left: 11vh;
+    left: vh;
+  }
+  .title {
+    font-size: 1.7em;
+  }
+  .subtitle {
+    font-size: 1.3em;
+    margin-top: vh;
+  }
+  .technologies {
+    font-size: 1.3em;
   }
 }
 
@@ -132,6 +142,19 @@
 @media (min-width: 1180px) and (min-height: 730px) {
   .codeButton {
     width: 100%;
-    left: 10vh;
+    left: 28vh;
+  }
+}
+
+@media (max-width: 340px) {
+  .image {
+    width: 70vw;
+    height: 100%;
+  }
+}
+
+@media all and (display-mode: fullscreen) {
+  .codeButton {
+    left: 25vh;
   }
 }
