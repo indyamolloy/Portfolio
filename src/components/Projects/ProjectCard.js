@@ -11,9 +11,9 @@ function ProjectCard(props) {
       <div className={css.description}>
         <p>{props.date}</p>
         <h4 className={css.title}>{props.title}</h4>
-        <p>Technologies:</p>
+        <p className={css.subtitle}>Technologies:</p>
         <p className={css.technologies}>{props.description}</p>
-        <h4 className={css.title}>{props.progress}</h4>
+        <p>{props.progress}</p>
         <a href={props.codeURL} className={css.codeButton}>
           View Code
           <svg
