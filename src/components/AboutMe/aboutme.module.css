@@ -68,7 +68,7 @@
   .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 80vh;
   }
   .aboutMe {
     width: 70%;
@@ -77,14 +77,14 @@
     margin-right: 10vh;
     margin-left: 10vh;
     position: relative;
-    top: -10vh;
+    top: -5vh;
   }
 
   .image {
     align-self: center;
     height: 20vh;
     position: relative;
-    top: 10vh;
+    top: 15vh;
   }
 }
 
@@ -127,7 +127,7 @@
     align-self: center;
 
     position: relative;
-    top: -5vh;
+    top: -1vh;
   }
 
   .image {
