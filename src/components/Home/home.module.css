@@ -612,7 +612,14 @@ html {
     top: 10vh;
   }
   .intro {
-    font-size: 80%;
+    font-size: 90%;
+    width: 80%;
+    margin-top: -5vh;
+  }
+  .buttons > a {
+    align-items: center;
+    padding: 1vh;
+    font-size: 0.7em;
   }
 }
 
