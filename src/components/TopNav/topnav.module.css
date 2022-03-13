@@ -60,7 +60,7 @@
 
 @media (max-height: 400px) and (max-width: 800px) {
   .container {
-    height: 7vh;
+    height: 10vh;
   }
   .socialIcon {
     font-size: 1em;
