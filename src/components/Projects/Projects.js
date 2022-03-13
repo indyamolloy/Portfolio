@@ -4,12 +4,21 @@ import ProjectCard from "./ProjectCard";
 import tarot from "../../images/project.png";
 import herosJourney from "../../images/herosjourney.png";
 import AppProject from "../../images/AppProject.png";
+import { FaTools } from "react-icons/fa";
 
 function Projects() {
   return (
     <div className={css.container}>
       <h2 className={css.heading}>Recent Projects</h2>
       <div className={css.flexContainer}>
+        <ProjectCard
+          liveSiteUrl="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
+          codeURL="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
+          image={AppProject}
+          title="Family Scheduler"
+          date="Feburary 2022 "
+          description="React Native, Firebase"
+        />
         <ProjectCard
           liveSiteUrl="https://theherosjourney.netlify.app/"
           codeURL="https://github.com/SchoolOfCode/heros-journey-frontend"
@@ -25,15 +34,12 @@ function Projects() {
           title="The Tarot"
           date="December 2021 "
           description="HTML, CSS, Vanilla JavaScript, API calls "
-        />
-        <ProjectCard
-          liveSiteUrl="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
-          codeURL="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
-          image={AppProject}
-          title="Family Scheduler"
-          date="Feburary 2022 "
-          description="React Native, Firebase"
-          progress="*IN PROGRESS*"
+          progress={
+            <strong>
+              <FaTools style={{ marginRight: "1ch" }} />
+              IN PROGRESS
+            </strong>
+          }
         />
       </div>
     </div>
