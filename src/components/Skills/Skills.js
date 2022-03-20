@@ -12,7 +12,7 @@ function Skills() {
           <ul className={css.list}>
             <li>HTML</li>
             <li>CSS</li>
-            <li>JavaScipt</li>
+            <li>JavaScript</li>
             <li>React</li>
             <li> Jest</li>
             <li> UI Libraries</li>
