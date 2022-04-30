@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCard";
 import tarot from "../../images/project.png";
 import herosJourney from "../../images/herosjourney.png";
 import AppProject from "../../images/AppProject.png";
+import tribeapp from "../../images/tribeapp.png";
 import { FaTools } from "react-icons/fa";
 
 function Projects() {
@@ -18,6 +19,14 @@ function Projects() {
           title="Family Scheduler"
           date="Feburary 2022 "
           description="React Native, Firebase"
+        />
+        <ProjectCard
+          liveSiteUrl="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
+          codeURL="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
+          image={AppProject}
+          title="App Landing Page"
+          date="April 2022 "
+          description="HTML, CSS, Bootstrap"
         />
         <ProjectCard
           liveSiteUrl="https://theherosjourney.netlify.app/"
