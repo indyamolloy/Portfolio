@@ -21,8 +21,8 @@ function Projects() {
           description="React Native, Firebase"
         />
         <ProjectCard
-          liveSiteUrl="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
-          codeURL="https://tribeapp.netlify.app/"
+          liveSiteUrl="https://tribeapp.netlify.app/"
+          codeURL="https://github.com/indyamolloy/Practise-Topics"
           image={tribeapp}
           title="App Landing Page"
           date="April 2022 "
