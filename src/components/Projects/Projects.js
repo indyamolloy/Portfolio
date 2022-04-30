@@ -22,8 +22,8 @@ function Projects() {
         />
         <ProjectCard
           liveSiteUrl="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
-          codeURL="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
-          image={AppProject}
+          codeURL="https://tribeapp.netlify.app/"
+          image={tribeapp}
           title="App Landing Page"
           date="April 2022 "
           description="HTML, CSS, Bootstrap"
