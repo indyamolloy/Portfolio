@@ -7,7 +7,7 @@ function AboutMe() {
     <div className={css.container}>
       <h2 className={css.heading}>About Me</h2>
 
-      <img className={css.image} src={aboutme} />
+      <img className={css.image} src={aboutme} alt="portrait" />
       <p className={css.aboutMe}>
         My journey into web development started with The School of Code in
         November 2021. Before discovering my love for coding, I was working as
