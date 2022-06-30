@@ -5,6 +5,7 @@ import tarot from "../../images/project.png";
 import herosJourney from "../../images/herosjourney.png";
 import AppProject from "../../images/AppProject.png";
 import tribeapp from "../../images/tribeapp.png";
+import ecoStore from "../../images/ecoStore.png";
 import { FaTools } from "react-icons/fa";
 
 function Projects() {
@@ -12,6 +13,14 @@ function Projects() {
     <div className={css.container}>
       <h2 className={css.heading}>Recent Projects</h2>
       <div className={css.flexContainer}>
+        <ProjectCard
+          liveSiteUrl="https://store-project-one.vercel.app/"
+          codeURL="https://github.com/indyamolloy/eco-store"
+          image={ecoStore}
+          title="EcoStore E-commerce website"
+          date="June 2022 "
+          description="React, Node, Express, SQL"
+        />
         <ProjectCard
           liveSiteUrl="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"
           codeURL="https://github.com/SchoolOfCode/final-project-repo-node-of-ingenuity-room-17"

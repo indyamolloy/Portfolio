@@ -1,6 +1,5 @@
 import React from "react";
 import css from "./aboutme.module.css";
-import img from "../../images/img.png";
 import aboutme from "../../images/aboutme.img.png";
 
 function AboutMe() {
